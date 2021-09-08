@@ -1,0 +1,29 @@
+[user]
+	email = matthewjohnson-2020@outlook.com
+	name = Matthew Johnson
+	signingkey = AEB494CF00520ECA
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = true
+[alias]
+	        st = status
+		lg = log --show-signature
+	        ll = log --oneline --decorate --graph --all
+	        ls = log --show-signature
+	        lp = log -p
+	        lst = log --stat
+[pull]
+	        rebase = false
+[fetch]
+	        prune = false
+[rebase]
+	        autoStash = false
+[diff]
+	        guitool = vim
+[merge]
+	        guitool = vim
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
