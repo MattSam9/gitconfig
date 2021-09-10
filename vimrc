@@ -8,3 +8,6 @@ autocmd FileType html,css EmmetInstall
 call plug#begin('~/.vim/plugged')
 Plug 'mattn/emmet-vim'
 call plug#end()
+call plug#begin('~/.vim/bundle')
+Plug 'Valloric/YouCompleteMe'
+call plug#end()
