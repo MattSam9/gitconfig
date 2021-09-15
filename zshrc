@@ -4,8 +4,8 @@ if [ -x /usr/bin/dircolors ]; then
 	test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
 	alias ls='ls --color=auto'
 	alias tt='tree -ahu'
-	alias t='tree'
-	alias dir='dir --color=auto'
+        alias t='tree'
+        alias dir='dir --color=auto'
 	alias vdir='vdir --color=auto'
 	alias g='git --color=auto'
 	alias grep='grep --color=auto'
@@ -21,6 +21,9 @@ export PATH="$HOME/.config/composer/vendor/squizlabs/php_codesniffer/bin:$PATH"
 
 #xdebug mode
 #export XDEBUG_MODE=off
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
 
 #path to windows home
 alias hh="cd /mnt/c/Users/Gandalf/"
