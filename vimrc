@@ -7,4 +7,5 @@ let g:user_emmet_mode='a'
 call plug#begin('~/.vim/bundle')
 Plug 'Valloric/YouCompleteMe'
 Plug 'mattn/emmet-vim'
+Plug 'ilyachur/cmake4vim'
 call plug#end()
